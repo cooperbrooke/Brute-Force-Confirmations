@@ -1,0 +1,15 @@
+num <- c()
+
+for (i in 1:1000){
+  counter = 0
+  trial = 0
+  while(counter < 1){
+    x <- runif(1)
+    counter <- counter + x 
+    trial <- trial + 1
+  }
+  num <- c(num,trial)
+}  
+mean(num)
+approximation_to_e <- mean(num) - exp(1)
+approximation_to_e
