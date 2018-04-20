@@ -1,3 +1,7 @@
+# When executed in R, this code shows that the number of random uniform numbers on [0,1] need to sum to 1 is
+# approximately e when the number of trials is large
+
+
 num <- c()
 
 for (i in 1:1000){
